@@ -75,3 +75,6 @@ document.getElementById("include").innerHTML=fruits.includes("Mango");
 
 //const number; will show error. const variables should be initialized in javascript.
 var carList=["BMw ", "AUdi"];
+
+const d=new Date();
+document.getElementById("date").innerHTML=d;
