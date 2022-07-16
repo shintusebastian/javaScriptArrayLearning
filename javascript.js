@@ -78,3 +78,9 @@ var carList=["BMw ", "AUdi"];
 
 const d=new Date();
 document.getElementById("date").innerHTML=d;
+
+document.getElementById("getDate").innerHTML=d.getDate();
+
+document.getElementById("getYear").innerHTML=d.getFullYear();
+
+
